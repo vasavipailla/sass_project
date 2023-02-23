@@ -1,0 +1,62 @@
+header {
+  margin: 30px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.nav__container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.nav__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.text1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container3 {
+  font-weight: 700;
+  font-family: "Mulish";
+}
+.container3 .heading {
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: -0.423077px;
+  color: #4A4FF2;
+}
+.container3 .para {
+  font-size: 40px;
+  line-height: 60px;
+  color: #111111;
+}
+
+.container4 {
+  margin: 20px;
+}
+
+body {
+  margin: 30px;
+}

@@ -1,0 +1,19 @@
+header {
+    margin:30px;
+}
+
+.nav {
+     display: flex;
+     justify-content: space-between;
+     
+     &__container1 {
+        display: flex;
+        justify-content: flex-start;
+        
+     }
+
+     &__ul {
+        display: flex;
+        flex-direction: row;
+     }
+}
