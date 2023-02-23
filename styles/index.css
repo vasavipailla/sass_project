@@ -53,8 +53,12 @@ header {
   color: #111111;
 }
 
+.color {
+  color: #4A4FF2;
+}
+
 .container4 {
-  margin: 20px;
+  margin: 60px;
 }
 
 body {
