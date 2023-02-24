@@ -1,7 +1,8 @@
-.text1 {
-    display: flex;
-    justify-content: space-between;
-}
+ .text1 {
+     display: flex;
+     justify-content: space-between;
+     margin:50px;
+ }
 
 
 $main-font:'Mulish';
@@ -14,12 +15,18 @@ $main-font:'Mulish';
         line-height: 28px;
         letter-spacing: -0.423077px;
         color: #4A4FF2;
+        width:173px;
+        height:28px;
     }
 
     .para {
         font-size: 40px;
         line-height: 60px;
         color: #111111;
+        width:100%;
+        max-width: 635px;
+        height: 251px;
+
     }
 
 }
@@ -30,6 +37,37 @@ $main-font:'Mulish';
 
 
 .container4{
-    margin:60px;
+    width:207px;
+    height: 23px;
+}
+
+.container6 {
+    display:flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+    margin:30px;
+    font-family: $main-font;
+    width:100%;
+    align-content: center;
+
+    .one {
+        font-weight: 700;
+         font-size: 28px;
+         line-height: 38px;
+         color: #111111;
+         width:100%;
+        max-width:635px;
+     }
+
+     .two {
+        font-weight: 400;
+         font-size: 18px;
+        line-height: 23px;
+        color: #111111;
+        mix-blend-mode: normal;
+       opacity: 0.6;
+        
+     }
+
 }
 
