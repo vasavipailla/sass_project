@@ -6,9 +6,13 @@
 
 
 $main-font:'Mulish';
+$main-font-weight:700;
+$main-font-size:18px;
+$main-font-size1:16px;
+$main-color: #111111;
 
 .container3{
-    font-weight: 700;
+    font-weight:$main-font-weight;
     font-family: $main-font;
     .heading {
         font-size: 22px;
@@ -51,7 +55,7 @@ $main-font:'Mulish';
     align-content: center;
 
     .one {
-        font-weight: 700;
+        font-weight:$main-font-weight;
          font-size: 28px;
          line-height: 38px;
          color: #111111;
@@ -61,7 +65,7 @@ $main-font:'Mulish';
 
      .two {
         font-weight: 400;
-         font-size: 18px;
+         font-size:$main-font-size;
         line-height: 23px;
         color: #111111;
         mix-blend-mode: normal;

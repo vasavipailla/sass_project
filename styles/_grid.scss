@@ -86,6 +86,10 @@
     grid-area: 27 / 7 / 33 / 10;
 }
 
+// .section4 {
+//     margin: 30px;
+// }
+
 .container7 {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
@@ -94,6 +98,7 @@
     width: 1110px;
     height: 823px;
     font-family: $main-font;
+    color:$main-color;
 
 }
 
@@ -101,64 +106,133 @@
 .block1 {
     grid-column:1/5;
     grid-row:1/5;
+    font-size: 22px;
+    font-weight:$main-font-weight;
+     margin: 20px;
 }
 
 .block2 {
     grid-area: 1/5/3/7;
+    font-weight:$main-font-weight;
+    font-size:$main-font-size;
+    margin:10px;
 }
 
 .block3 {
     grid-column:7/9 ;
     grid-row:1/3 ;
+    display: flex;
+    flex-direction: column;
+
+    .first{
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .second {
+        opacity:0.6;
+        padding: 10px;
+        
+    }
 }
 
 .block4 {
      grid-area:1/9/3/11;
+     text-align: right;
 }
 
 .block5 {
     grid-column:5/7;
     grid-row:3/5;
+    font-weight:$main-font-weight;
+    font-size:$main-font-size;
 }
 
 .block6 {
     grid-column:7/9;
     grid-row:3/5;
+    display: flex;
+    flex-direction: column;
+
+    .third {
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .fourth {
+        opacity: 0.6;
+        padding: 10px;
+    }
 }
+
 
 .block7 {
     grid-area:3/9/5/11;
+    text-align: right;
 }
 
 
 .block8 {
     grid-column:1/5 ;
     grid-row:5/8 ;
+    font-weight:$main-font-weight;
+    font-size: 22px;
 }
 
 .block9 {
     grid-area: 5/5/6/7;
+    font-weight:$main-font-weight;
+    font-size:$main-font-size;
 }
 
 .block10 {
     grid-column:7/9;
     grid-row:5/6;
+    display: flex;
+    flex-direction: column;
+
+    .fifth {
+        font-weight: 400;
+        line-height: 20px; 
+    }
+
+    .sixth {
+        opacity:0.6;
+        padding: 10px;
+    }
 }
 
 .block11 {
     grid-area:5/9/6/11;
+    text-align: right;
 }
 
 .block12 {
     grid-area: 6/5/8/7;
+    font-weight:$main-font-weight;
+    font-size:$main-font-size;
 }
 
 .block13 {
     grid-area:6/7/8/9;
+    display: flex;
+    flex-direction: column;
+
+    .seventh {
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .eighth {
+        opacity:0.6;
+        padding:10px;
+    }
 }
+
 
 .block14 {
     grid-area: 6/9/8/11;
+    text-align: right;
 }
 
 .divider {
@@ -180,6 +254,8 @@
     grid-column:1/11;
     grid-row:7/8;
 }
+
+
 
 
 
