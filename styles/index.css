@@ -1659,6 +1659,7 @@
   width: 100%;
   width: 1110px;
   height: 823px;
+  font-family: "Mulish";
 }
 
 .container7 > *:nth-child(1) {
@@ -2071,15 +2072,6 @@
   grid-area: 3/9/5/11;
 }
 
-.line {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 10;
-  grid-column: 1/11;
-  -ms-grid-row: 4;
-  -ms-grid-row-span: 1;
-  grid-row: 4/5;
-}
-
 .block8 {
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
@@ -2136,6 +2128,38 @@
   -ms-grid-column: 9;
   -ms-grid-column-span: 2;
   grid-area: 6/9/8/11;
+}
+
+.divider {
+  background: #D8D8D8;
+  height: 2px;
+}
+
+.line1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1/11;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.line2 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1/11;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
+}
+
+.line3 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1/11;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 1;
+  grid-row: 7/8;
 }
 
 body {
