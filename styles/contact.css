@@ -151,6 +151,10 @@ form input {
   margin-top: 50px;
 }
 
+footer {
+  margin-top: 50px;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
