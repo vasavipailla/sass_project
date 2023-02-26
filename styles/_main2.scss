@@ -1,15 +1,25 @@
-section {
+.tw0 {
     display: flex;
     justify-content: center;
 }
+
+.three {
+    @extend .tw0;
+}
+
+.four {
+    @extend .three;
+}
+
 $main-font:'Mulish';
 $main-color: #111111;
 
 
 .container7 {
-    // margin: 30px;
+    margin:60px;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 .para1 {
     display: flex;
@@ -31,25 +41,9 @@ $main-color: #111111;
 
     .first {
         width:100%;
-        max-width: 683px;
- height:200px;
-
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
- line-height: 26px;
-color: #111111;
-
-mix-blend-mode: normal;
-opacity: 0.8;
-
-    }
-    .second {
-        width:100%;
-        max-width: 683px;
-        height: 241px;
-        font-family: 'Mulish';
+         max-width: 683px;
+        // height:10px;
+        font-family:$main-font;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -58,6 +52,10 @@ opacity: 0.8;
         mix-blend-mode: normal;
         opacity: 0.8;
 
+    }
+    .second {
+        @extend .first;
+        margin-top: 20px;
     }
 
 }
@@ -69,6 +67,8 @@ opacity: 0.8;
     margin: 30px;
 
 }
+
+@import 'grid2';
 
 
 .para3 {
