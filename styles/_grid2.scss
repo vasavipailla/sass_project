@@ -6,15 +6,36 @@
     max-width: 335px;
     min-height: 343px;
     margin: 30px;
-    background: #F2F2F2;
-    
+
+}
+
+.font1 {
+    font-family:$main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-top:20px;
+}
+
+.font2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    margin-top:10px;
 
 }
 
 .a {
     grid-column: 1/2;
     grid-row:1/2 ;
-    align-content: center;
+
 }
 
 .b {
