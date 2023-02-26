@@ -3,3 +3,13 @@
     justify-content:space-around;
 
 }
+
+.footer_logo {
+    display:flex;
+    flex-direction:row;
+
+    .logo {
+        margin-left:60px;
+    }
+
+}
